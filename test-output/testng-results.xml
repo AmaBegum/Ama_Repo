@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="25" total="26" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15478" started-at="2019-03-24T22:36:32Z" finished-at="2019-03-24T22:36:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15478" started-at="2019-03-24T22:36:32Z" finished-at="2019-03-24T22:36:47Z">
+      <class name="Tests.AllTests">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:Tests.AllTests@1e88b3c]" name="beforeEachTest" is-config="true" duration-ms="5104" started-at="2019-03-24T18:36:32Z" finished-at="2019-03-24T18:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="Gotothewebsiteclickcontactusthengoback()[pri:25, instance:Tests.AllTests@1e88b3c]" name="Gotothewebsiteclickcontactusthengoback" duration-ms="4421" started-at="2019-03-24T18:36:37Z" finished-at="2019-03-24T18:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gotothewebsiteclickcontactusthengoback -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:Tests.AllTests@1e88b3c]" name="afterEachTest" is-config="true" duration-ms="5917" started-at="2019-03-24T18:36:41Z" finished-at="2019-03-24T18:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Gotothewebsiteclickcontactusthengoback status=SUCCESS method=AllTests.Gotothewebsiteclickcontactusthengoback()[pri:25, instance:Tests.AllTests@1e88b3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- Tests.AllTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
