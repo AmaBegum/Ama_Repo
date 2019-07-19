@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14015" started-at="2019-04-30T00:50:04Z" finished-at="2019-04-30T00:50:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14015" started-at="2019-04-30T00:50:04Z" finished-at="2019-04-30T00:50:18Z">
+      <class name="Pages.HomePage">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:Pages.HomePage@77caeb3e]" name="beforeEachTest" is-config="true" duration-ms="5043" started-at="2019-04-29T20:50:04Z" finished-at="2019-04-29T20:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="FAIL" signature="one()[pri:0, instance:Pages.HomePage@77caeb3e]" name="one" duration-ms="3179" started-at="2019-04-29T20:50:09Z" finished-at="2019-04-29T20:50:13Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: ""]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: ""at java.lang.NumberFormatException.forInputString(Unknown Source)at java.lang.Integer.parseInt(Unknown Source)at java.lang.Integer.parseInt(Unknown Source)at Pages.HomePage.GetDueToday(HomePage.java:33)at Pages.HomePage.one(HomePage.java:57)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:Pages.HomePage@77caeb3e]" name="afterEachTest" is-config="true" duration-ms="5756" started-at="2019-04-29T20:50:13Z" finished-at="2019-04-29T20:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=one status=FAILURE method=HomePage.one()[pri:0, instance:Pages.HomePage@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- Pages.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
