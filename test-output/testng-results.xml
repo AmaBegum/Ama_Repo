@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="30" failed="0" ignored="0" total="30" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2927" started-at="2019-07-09T16:26:54Z" finished-at="2019-07-09T16:26:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2927" started-at="2019-07-09T16:26:54Z" finished-at="2019-07-09T16:26:57Z">
+      <class name="test.Tests">
+        <test-method status="FAIL" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="2318" started-at="2019-07-09T12:26:54Z" finished-at="2019-07-09T12:26:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="CheckingAllLinksOnHomePage()[pri:0, instance:test.Tests@3bfdc050]" name="CheckingAllLinksOnHomePage" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingAllLinksOnHomePage -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickCruiseBttnTheVerifyIfpageloaded()[pri:0, instance:test.Tests@3bfdc050]" name="ClickCruiseBttnTheVerifyIfpageloaded" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCruiseBttnTheVerifyIfpageloaded -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickDestinatioNBttnThenNavigateBack()[pri:0, instance:test.Tests@3bfdc050]" name="ClickDestinatioNBttnThenNavigateBack" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDestinatioNBttnThenNavigateBack -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickHotelsBttn()[pri:0, instance:test.Tests@3bfdc050]" name="ClickHotelsBttn" duration-ms="0" started-at="2019-07-09T12:26:56Z" finished-at="2019-07-09T12:26:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickHotelsBttn -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickRegisterBttnTheFillOutUserInfoThenClickSignup()[pri:0, instance:test.Tests@3bfdc050]" name="ClickRegisterBttnTheFillOutUserInfoThenClickSignup" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBttnTheFillOutUserInfoThenClickSignup -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickRegisterBttnTheFillOutcontactInfoThenClickSignup()[pri:0, instance:test.Tests@3bfdc050]" name="ClickRegisterBttnTheFillOutcontactInfoThenClickSignup" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBttnTheFillOutcontactInfoThenClickSignup -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickRegisterBttnTheFillOutcontactInfoThenClickSignupThenClickSignOFF()[pri:0, instance:test.Tests@3bfdc050]" name="ClickRegisterBttnTheFillOutcontactInfoThenClickSignupThenClickSignOFF" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBttnTheFillOutcontactInfoThenClickSignupThenClickSignOFF -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingFlightBttn()[pri:0, instance:test.Tests@3bfdc050]" name="ClickingFlightBttn" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingFlightBttn -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingLinkOne()[pri:0, instance:test.Tests@3bfdc050]" name="ClickingLinkOne" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingLinkOne -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingLinkThree()[pri:0, instance:test.Tests@3bfdc050]" name="ClickingLinkThree" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingLinkThree -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingLinkTwo()[pri:0, instance:test.Tests@3bfdc050]" name="ClickingLinkTwo" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingLinkTwo -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingRegisterbuttonThenFillOutAllInfoAndClickSubmit -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="ClickregisterThenEnterMailingInfoThenClickSignUp()[pri:0, instance:test.Tests@3bfdc050]" name="ClickregisterThenEnterMailingInfoThenClickSignUp" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickregisterThenEnterMailingInfoThenClickSignUp -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="EnteringUserNamePassWordWithRandonNamesThenClickSignipn()[pri:0, instance:test.Tests@3bfdc050]" name="EnteringUserNamePassWordWithRandonNamesThenClickSignipn" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnteringUserNamePassWordWithRandonNamesThenClickSignipn -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="GettingDate()[pri:0, instance:test.Tests@3bfdc050]" name="GettingDate" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GettingDate -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="GettingSpecialPrices()[pri:0, instance:test.Tests@3bfdc050]" name="GettingSpecialPrices" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GettingSpecialPrices -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="PrintCruisePgLinks()[pri:0, instance:test.Tests@3bfdc050]" name="PrintCruisePgLinks" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintCruisePgLinks -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="PrintRegisterPgLinks()[pri:0, instance:test.Tests@3bfdc050]" name="PrintRegisterPgLinks" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintRegisterPgLinks -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisterThenClickFlightsBttnThenSelectOneWaytrip()[pri:0, instance:test.Tests@3bfdc050]" name="RegisterThenClickFlightsBttnThenSelectOneWaytrip" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterThenClickFlightsBttnThenSelectOneWaytrip -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisterThenFillAllInfoOnFlightsPg()[pri:0, instance:test.Tests@3bfdc050]" name="RegisterThenFillAllInfoOnFlightsPg" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterThenFillAllInfoOnFlightsPg -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisteringThenLoginOnHP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="RegisteringThenLoginOnHP" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteringThenLoginOnHP -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisteringThenLoginOnHP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="RegisteringThenLoginOnHP" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteringThenLoginOnHP -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisteringThenLoginOnHP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="RegisteringThenLoginOnHP" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteringThenLoginOnHP -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisteringThenLoginOnHP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="RegisteringThenLoginOnHP" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteringThenLoginOnHP -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisteringThenLoginOnHP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.Tests@3bfdc050]" name="RegisteringThenLoginOnHP" duration-ms="0" started-at="2019-07-09T12:26:57Z" data-provider="RegistrationInfo" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteringThenLoginOnHP -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="SKIP" signature="beforeEachTest()[pri:0, instance:test.Tests@3bfdc050]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="SKIP" signature="RegisteringThenSelectingPassengerCt()[pri:0, instance:test.Tests@3bfdc050]" name="RegisteringThenSelectingPassengerCt" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at org.testng.Assert.assertTrue(Assert.java:54)at Library.Library.startChromeBrowser(Library.java:51)at Library.Base.beforeEachTest(Base.java:21)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeMethod(Invoker.java:516)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteringThenSelectingPassengerCt -->
+        <test-method status="SKIP" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.Tests@3bfdc050]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:26:57Z" finished-at="2019-07-09T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- test.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
