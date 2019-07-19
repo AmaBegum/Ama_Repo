@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18407" started-at="2019-07-19T01:10:13Z" finished-at="2019-07-19T01:10:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18407" started-at="2019-07-19T01:10:13Z" finished-at="2019-07-19T01:10:31Z">
+      <class name="Test.AllTests">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:Test.AllTests@5419f379]" name="beforeAllTestStart" is-config="true" duration-ms="18" started-at="2019-07-18T21:10:13Z" finished-at="2019-07-18T21:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTestStart -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:Test.AllTests@5419f379]" name="beforeEachTestStart" is-config="true" duration-ms="4666" started-at="2019-07-18T21:10:13Z" finished-at="2019-07-18T21:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="ControlGroupTest()[pri:0, instance:Test.AllTests@5419f379]" name="ControlGroupTest" duration-ms="2800" started-at="2019-07-18T21:10:17Z" finished-at="2019-07-18T21:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ControlGroupTest -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:Test.AllTests@5419f379]" name="afterEachTestEnd" is-config="true" duration-ms="10897" started-at="2019-07-18T21:10:20Z" finished-at="2019-07-18T21:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:Test.AllTests@5419f379]" name="afterAllTestCompleted" is-config="true" duration-ms="1" started-at="2019-07-18T21:10:31Z" finished-at="2019-07-18T21:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTestCompleted -->
+      </class> <!-- Test.AllTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
