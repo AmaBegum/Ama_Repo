@@ -18,21 +18,21 @@ public class AllTests extends Base {
 	ContactUsPage MyCP = new ContactUsPage();
 	SpecialsPage MySP = new SpecialsPage();
 
-	@Test(enabled = false, priority = 0)
+	@Test(enabled =true, priority = 0)
 	public void ClickingWomensBttn() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.ClickWomensbutton();
 		MyMP.CheckIfNewPageLoaded("http://automationpractice.com/index.php?id_category=3&controller=category");
 	}
 
-	@Test(enabled = false, priority = 1)
+	@Test(enabled =true, priority = 1)
 	public void ClickingTshirtButton() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.ClickTshirtButton();
 		MyMP.CheckIfNewPageLoaded("http://automationpractice.com/index.php?id_category=5&controller=category");
 	}
 
-	@Test(enabled = false, priority = 2)
+	@Test(enabled =true, priority = 2)
 	public void FillSearchBoxWithTshirt() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.EnterTextIntoTextBox(By.xpath("//*[@id=\"search_query_top\"]"), "tshirts");
@@ -41,7 +41,7 @@ public class AllTests extends Base {
 				"http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=tshirts&submit_search=");
 	}
 
-	@Test(enabled = false, priority = 3)
+	@Test(enabled =true, priority = 3)
 	public void FillsearchBoxwithBlouse() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.EnterTextIntoTextBox(By.xpath("//*[@id=\"search_query_top\"]"), "blouse");
@@ -50,42 +50,42 @@ public class AllTests extends Base {
 				"http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=blouse&submit_search=");
 	}
 
-	@Test(enabled = false, priority = 4)
+	@Test(enabled =true, priority = 4)
 	public void ClickingContactUsButton() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.ClickContactUsButton();
 		MyMP.CheckIfNewPageLoaded("http://automationpractice.com/index.php?controller=contact");
 	}
 
-	@Test(enabled = false, priority = 5)
+	@Test(enabled =true, priority = 5)
 	public void Clicking25OffBanner() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.Click25OffBannerButton();
 		MyMP.CheckIfNewPageLoaded("https://www.prestashop.com/en");
 	}
 
-	@Test(enabled = false, priority = 6)
+	@Test(enabled =true, priority = 6)
 	public void ClickingBestSellersButton() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.ClickBestsellersButton();
 		MyMP.CheckForVisibility(By.xpath("//*[@id=\"blockbestsellers\"]/li[1]/div/div[2]/h5/a"));
 	}
 
-	@Test(enabled = false, priority = 7)
+	@Test(enabled =true, priority = 7)
 	public void AddingFadedShortSleeveToCart() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.AddingItemToCart("//*[@id=\"homefeatured\"]/li[1]/div/div[1]/div/a[1]/img",
 				"//*[@id=\"homefeatured\"]/li[1]/div/div[2]/div[2]/a[1]/span");
 	}
 
-	@Test(enabled = false, priority = 8)
+	@Test(enabled =true, priority = 8)
 	public void AddingPrintedDressToCart() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.AddingItemToCart("//*[@id=\"homefeatured\"]/li[3]/div/div[2]/h5/a",
 				"//*[@id=\"homefeatured\"]/li[3]/div/div[2]/div[2]/a[1]/span");
 	}
 
-	@Test(enabled = false, priority = 9)
+	@Test(enabled =true, priority = 9)
 	public void AddingTwoItemsToTheCartThenSearchingForJeans() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.AddingItemToCart("//*[@id=\"homefeatured\"]/li[4]/div/div[2]/h5/a",
@@ -98,7 +98,7 @@ public class AllTests extends Base {
 				"http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=jeans&submit_search=");
 	}
 
-	@Test(enabled = false, priority = 10)
+	@Test(enabled =true, priority = 10)
 	public void CreatingAcctInMyOrdersPage() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -109,7 +109,7 @@ public class AllTests extends Base {
 				"http://automationpractice.com/index.php?controller=authentication&back=history#account-creation");
 	}
 
-	@Test(enabled = false, priority = 11)
+	@Test(enabled =true, priority = 11)
 	public void CreatingAcctInMyOrdersPageThenEnterPersonalInfo1() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -124,7 +124,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterBttn();
 	}
 
-	@Test(enabled = false, priority = 12)
+	@Test(enabled =true, priority = 12)
 	public void CreatingAcctInMyOrdersPageThenEnterPersonalInfo2() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -138,7 +138,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterBttn();
 	}
 
-	@Test(enabled = false, priority = 13)
+	@Test(enabled =true, priority = 13)
 	public void CreatingAcctInMyOrdersPageThenEnterPersonalInfo3() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -149,7 +149,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterBttn();
 	}
 
-	@Test(enabled = false, priority = 14)
+	@Test(enabled =true, priority = 14)
 	public void CreatingAcctInMyOrdersPageThenEnterPersonalInfo3ThenEnterTitleNameAndPressReg() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -161,7 +161,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterBttn();
 	}
 
-	@Test(enabled = false, priority = 15)
+	@Test(enabled =true, priority = 15)
 	public void CreatingAcctInMyOrdersPageThenEnterPersonalInfo3ThenEnterFirstNameLstNameEmaillAddressPasswordandDOBThenPressReg() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -180,7 +180,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterBttn();
 	}
 
-	@Test(enabled = false, priority = 16)
+	@Test(enabled =true, priority = 16)
 	public void CreatingAccountInMyOrdersPageThenEnteringPersonalInfoThenFillingInAddressThenPressReg() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -207,7 +207,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterButtonUnderAddressInfoPage();
 	}
 
-	@Test(enabled = false, priority = 17)
+	@Test(enabled =true, priority = 17)
 	public void CreatingAccountInMyOrdersPageThenEnteringAddressAndPressingRegister() {
 		MyMP.gotowebsite();
 		MyMP.ClickMyOrdersButton();
@@ -225,7 +225,7 @@ public class AllTests extends Base {
 		Mypip.ClickRegisterButtonUnderAddressInfoPage();
 	}
 
-	@Test(enabled = false, priority = 18)
+	@Test(enabled =true, priority = 18)
 	public void EnterSubjectHeaderAndClickSendButton() {
 		MyMP.gotowebsite();
 		MyMP.ClickContactUsButton();
@@ -234,7 +234,7 @@ public class AllTests extends Base {
 		MyCP.ClickSendButton();
 	}
 
-	@Test(enabled = false, priority = 19)
+	@Test(enabled =true, priority = 19)
 	public void EnterSubjectHeaderEmailAddressOrderReferenceAndClickSendButton() {
 		MyMP.gotowebsite();
 		MyMP.ClickContactUsButton();
@@ -245,7 +245,7 @@ public class AllTests extends Base {
 		MyCP.ClickSendButton();
 	}
 
-	@Test(enabled = false, priority = 20)
+	@Test(enabled =true, priority = 20)
 	public void EnterSubjectHeaderEmailAddressOrderReferenceEnterMessageInToBoxAndClickSendButton() {
 		MyMP.gotowebsite();
 		MyMP.ClickContactUsButton();
@@ -258,14 +258,14 @@ public class AllTests extends Base {
 		MyOP.WaitForPageLoad(By.xpath("//*[@id=\"center_column\"]/p"));
 	}
 
-	@Test(enabled = false, priority = 21)
+	@Test(enabled =true, priority = 21)
 	public void SignUpForNewsletter() {
 		MyMP.gotowebsite();
 		MyMP.SignUpForNewsletter();
 		MyOP.WaitForPageLoad(By.xpath("//*[@id=\"columns\"]/p"));
 	}
 
-	@Test(enabled = false, priority = 22)
+	@Test(enabled =true, priority = 22)
 	public void ClickSpecialsButtonAndSelectFromDropDownPriceHighestToLowest() {
 		MyMP.gotowebsite();
 		MyMP.SelectSpecialButton();
@@ -273,14 +273,14 @@ public class AllTests extends Base {
 		MySP.SelectingSortBy();
 	}
 
-	@Test(enabled = false, priority = 23)
+	@Test(enabled =true, priority = 23)
 	public void ClickYoutubeLink() throws InterruptedException {
 		MyMP.gotowebsite();
 		MyMP.ClickOnTheYoutubeIcon();
 		MyOP.WaitForPageLoad(By.xpath("//*[@id=\"channel-title\"]"));
 	}
 
-	@Test(enabled = false, priority = 24)
+	@Test(enabled =true, priority = 24)
 	public void gotothewebsiteclickcontactusthengobackandgototheyoutubelinkthengobackhomeandclickcontactusagian()
 			throws InterruptedException {
 		MyMP.gotowebsite();
