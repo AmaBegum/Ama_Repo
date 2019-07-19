@@ -9,7 +9,7 @@ import Pages.HomePage;
 public class AllTests extends Base {
 	HomePage myHP = new HomePage();
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void DraggableTest() {
 		myHP.GoToWebsite();
 		myHP.clickingDraggableButton();
@@ -17,7 +17,7 @@ public class AllTests extends Base {
 		myHP.ActuallyDragging();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void DroppableTest() {
 		myHP.GoToWebsite();
 		myHP.clickingDroppableButton();
@@ -25,7 +25,7 @@ public class AllTests extends Base {
 		myHP.ActuallyDroppable();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void ResizeableTest() {
 		myHP.GoToWebsite();
 		myHP.clickingResizableButton();
@@ -33,7 +33,7 @@ public class AllTests extends Base {
 		myHP.ActuallyResized();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void SelectableTest() {
 		myHP.GoToWebsite();
 		myHP.clickingSelectableButton();
@@ -41,7 +41,7 @@ public class AllTests extends Base {
 		myHP.ActuallySelectable();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void SortableTest() {
 		myHP.GoToWebsite();
 		myHP.clickingSortableButton();
@@ -49,7 +49,7 @@ public class AllTests extends Base {
 		myHP.ActuallySortable();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void AccodianTest() {
 		myHP.GoToWebsite();
 		myHP.clickingAccordionButton();
@@ -57,7 +57,7 @@ public class AllTests extends Base {
 		myHP.ActuallyAccordian();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void AutocompleteTest() {
 		myHP.GoToWebsite();
 		myHP.clickingAutocompleteButton();
@@ -65,14 +65,14 @@ public class AllTests extends Base {
 		myHP.ActuallyAutocomplete();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void ButtonTest() {
 		myHP.GoToWebsite();
 		myHP.clickingButtonButton();
 		myHP.SwitchToButtonFrame();
 		myHP.ActuallyClickingButton();
 	}
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void CheckBoxRadioTest() {
 		myHP.GoToWebsite();
 		myHP.clickingCheckBoxRadio();
